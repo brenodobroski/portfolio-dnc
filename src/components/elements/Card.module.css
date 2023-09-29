@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.card img {
+  width: 800px;
+  height: 500px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+  transition: all 0.3s;
+}
+
+.card img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card section {
+  width: 551px;
+  height: 400px;
+  background-color: rgba(1, 9, 28, 0.75);
+  border-radius: 15px;
+  padding: 21px 91px 40px 43px;
+  margin-left: 53px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+}
+
+.card {
+  font-size: 32px;
+}
